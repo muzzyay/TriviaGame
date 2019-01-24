@@ -94,7 +94,7 @@ $('#restart').click(function() {
 
 function secondsLeft() {
     seconds--;
-    $("#time").html("<h2>Time remaining: " + seconds + " seconds</h2>");
+    $("#time").html("<h2>Time Remaining: " + seconds + " seconds</h2>");
 
 
 
@@ -104,7 +104,7 @@ function secondsLeft() {
 function displayQuestion() {
 
     $("#trivia-container").empty();
-    $("#time").html("<h2>Time remaining: " + seconds + " seconds</h2>");
+    $("#time").html("<h2>Time Remaining: " + seconds + " seconds</h2>");
 
     time = setInterval(secondsLeft, 1000);
 
@@ -158,7 +158,7 @@ function displayBlank() {
 
     $("#trivia-container").empty();
 
-    $("#trivia-container").html("<h3>Time is Up! The answer is " + answer + "</h3>");
+    $("#trivia-container").html("<h3><br>Time is Up!<br><br> The answer is " + answer + "</h3>");
     unanswered++;
 
 
