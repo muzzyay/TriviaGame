@@ -3,17 +3,19 @@ body {
 }
 
 .container {
-    background-image: url(../images/worldmap.jpg);
+    background-image: url(../images/golden-world.jpg);
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;
-    height: auto;
+    height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
 }
 
-
+h3 {
+    font-weight: 900;
+}
 
 
 h5 {
@@ -21,6 +23,7 @@ h5 {
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: 900;
     
 }
 
@@ -52,9 +55,9 @@ h5:hover {
 }
 
 
-#time {
+h2 {
 
-    font-size: 15px;
+    font-size: 30px;
     color:blue;
-    font-weight: bolder;
+    font-weight: 900;
 }
